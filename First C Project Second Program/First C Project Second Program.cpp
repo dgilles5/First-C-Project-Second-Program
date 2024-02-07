@@ -34,10 +34,13 @@ int main() {
         /* Debugging output
         cout << last_name << " " << first_name << " " << salary << " " << salary_increase <<endl;
         */
+
         //Creates a double called adjusted salary. This number will be reset betwen each loop.
         double adjusted_salary;
-        //Adds the percentage to the salary. It converts the percent to a decimal, then adds 1 and multiplies the new
-        //decimal to the base salary.
+        /*
+        Adds the percentage to the salary.It converts the percent to a decimal, then adds 1 and multiplies the new
+        decimal to the base salary.
+        */
         adjusted_salary = salary * (1 + (salary_increase / 100));
         
         //Writes the First Name, Last Name, and Adjusted Salary to the output file
